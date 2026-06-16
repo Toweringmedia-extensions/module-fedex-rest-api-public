@@ -1,0 +1,20 @@
+{
+  "name": "toweringmedia/module-fedex-rest-api",
+  "description": "Real-time FedEx shipping rates in Magento checkout using the FedEx REST API. Secure OAuth2 authentication with sandbox and production credential support. Supports negotiated account rates and list rates from one carrier configuration. Controls for allowed services, pickup type, and transit-time display. Built for large catalogs with shared dimensional-weight calculation.",
+  "type": "magento2-module",
+  "homepage": "https://toweringmedia.com/magento2-fedex-rest-api",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "magento/framework": ">=103.0"
+  },
+  "support": {
+    "docs": "https://toweringmedia.com/magento2-fedex-rest-api",
+    "source": "https://github.com/Toweringmedia-extensions/module-fedex-rest-api"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
